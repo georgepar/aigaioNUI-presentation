@@ -1,0 +1,442 @@
+
+@Article{Pereira2014,
+author={Pereira, Carlos
+and Aguiar, Ana},
+title={Towards Efficient Mobile M2M Communications: Survey and Open Challenges},
+journal={Sensors (Basel)},
+year={2014},
+month={Oct},
+day={20},
+publisher={MDPI},
+volume={14},
+number={10},
+pages={19582-19608},
+abstract={Machine-to-Machine (M2M) communications enable networked devices and services to exchange information and perform actions seamlessly without the need for human intervention. They are viewed as a key enabler of the Internet of Things (IoT) and ubiquitous applications, like mobile healthcare, telemetry, or intelligent transport systems. We survey existing work on mobile M2M communications, we identify open challenges that have a direct impact on performance and resource usage efficiency, especially the impact on energy efficiency, and we review techniques to improve communications. We review the ETSI standard and application protocols, and draw considerations on the impact of their use in constrained mobile devices. Nowadays, smartphones are equipped with a wide range of embedded sensors, with varied local and wide area connectivity capabilities, and thus they offer a unique opportunity to serve as mobile gateways for other more constrained devices with local connectivity. At the same time, they can gather context data about users and environment from the embedded sensors. These capabilities may be crucial for mobile M2M applications. Finally, in this paper, we consider a scenario where smartphones are used as gateways that collect and aggregate data from sensors in a cellular network. We conclude that, in order for their use to the feasible in terms of a normal depletion time of a smartphone's battery, it is a good advice to maximize the collection of data necessary to be transmitted from nearby sensors, and maximize the intervals between transmissions. More research is required to devise energy efficient transmission methods that enable the use of smartphones as mobile gateways.},
+note={25333291[pmid]},
+note={sensors-14-19582[PII]},
+issn={1424-8220},
+doi={10.3390/s141019582},
+url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4239907/}
+}
+
+@conference {rospaper,
+	title = {ROS: an open-source Robot Operating System},
+	booktitle = {ICRA Workshop on Open Source Software},
+	year = {2009},
+	attachments = {http://www.willowgarage.com/sites/default/files/icraoss09-ROS.pdf},
+	author = {Morgan Quigley and Ken Conley and Brian P. Gerkey and Josh Faust and Tully Foote and Jeremy Leibs and Rob Wheeler and Andrew Y. Ng}
+}
+
+
+@STANDARD {mqtt-standard,
+    title        = "MQTT Version 3.1.1",
+    organization = "OASIS",
+    institution  = "OASIS",
+    year         = "2015",
+    month        = "dec",
+    url          = "http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/mqtt-v3.1.1.html"
+}
+
+@CONFERENCE {urshunkelerhonglinhtruongandystanfordclark2008,
+    author    = "Urs Hunkeler , Hong Linh Truong , Andy Stanford-Clark",
+    title     = "MQTT-S — A publish/subscribe protocol for Wireless Sensor Networks",
+    booktitle = "Communication Systems Software and Middleware and Workshops",
+    year      = "2008",
+    pages     = "791 - 798",
+    publisher = "IEEE"
+}
+
+@ONLINE {kinectdesc,
+    author = "Wikipedia",
+    title  = "Kinect",
+    month  = "jun",
+    year   = "2016",
+    url    = "https://en.wikipedia.org/wiki/Kinect"
+}
+
+
+@ONLINE {kinectspecs,
+    author = "Microsoft",
+    title  = "Kinect for Windows Sensor Components and Specifications",
+    month  = "jun",
+    year   = "2016",
+    url    = "https://msdn.microsoft.com/en-us/library/jj131033.aspx"
+}
+
+@Article{Khoshelham2012,
+author={Khoshelham, Kourosh
+and Elberink, Sander Oude},
+title={Accuracy and Resolution of Kinect Depth Data for Indoor Mapping Applications},
+journal={Sensors (Basel)},
+year={2012},
+month={Feb},
+day={01},
+publisher={Molecular Diversity Preservation International (MDPI)},
+volume={12},
+number={2},
+pages={1437-1454},
+abstract={Consumer-grade range cameras such as the Kinect sensor have the potential to be used in mapping applications where accuracy requirements are less strict. To realize this potential insight into the geometric quality of the data acquired by the sensor is essential. In this paper we discuss the calibration of the Kinect sensor, and provide an analysis of the accuracy and resolution of its depth data. Based on a mathematical model of depth measurement from disparity a theoretical error analysis is presented, which provides an insight into the factors influencing the accuracy of the data. Experimental results show that the random error of depth measurement increases with increasing distance to the sensor, and ranges from a few millimeters up to about 4 cm at the maximum range of the sensor. The quality of the data is also found to be influenced by the low resolution of the depth measurements.},
+note={sensors-12-01437[PII]},
+note={22438718[pmid]},
+issn={1424-8220},
+doi={10.3390/s120201437},
+url={http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3304120/}
+}
+
+
+@misc{freedman2012depth,
+  title={Depth mapping using projected patterns},
+  author={Freedman, B. and Shpunt, A. and Machline, M. and Arieli, Y.},
+  url={https://www.google.gr/patents/US8150142},
+  year={2012},
+  month=apr # "~3",
+  publisher={Google Patents},
+  note={US Patent 8,150,142}
+}
+
+@misc{zalevsky2007method,
+  title={Method and system for object reconstruction},
+  author={Zalevsky, Z. and Shpunt, A. and Maizels, A. and Garcia, J.},
+  url={https://www.google.gr/patents/WO2007043036A1?cl=en},
+  year={2007},
+  month=apr # "~19",
+  publisher={Google Patents},
+  note={WO Patent App. PCT/IL2006/000,335}
+}
+
+@Inproceedings {shotton2011,
+abstract     = {<p>We propose a new method to quickly and accurately predict 3D positions of body
+                joints from a single depth image, using no temporal information. We take an
+                object recognition approach, designing an intermediate body parts representation
+                that maps the difficult pose estimation problem into a simpler per-pixel
+                classification problem. Our large and highly varied training dataset allows the
+                classifier to estimate body parts invariant to pose, body shape, clothing, etc.
+                Finally we generate confidence-scored 3D proposals of several body joints by
+                reprojecting the classification result and finding local modes.
+The system runs
+                at 200 frames per second on consumer hardware. Our evaluation shows high accuracy
+                on both synthetic and real test sets, and investigates the effect of several
+                training parameters. We achieve state of the art accuracy in our comparison with
+                related work and demonstrate improved generalization over exact whole-skeleton
+                nearest neighbor matching.</p>},
+author       = {Jamie Shotton and Andrew Fitzgibbon and Mat Cook and Toby Sharp and Mark
+                Finocchio and Richard Moore and Alex Kipman and Andrew Blake},
+booktitle    = {CVPR},
+month        = {June},
+publisher    = {IEEE},
+title        = {Real-Time Human Pose Recognition in Parts from a Single Depth Image},
+url          = {http://research.microsoft.com/apps/pubs/default.aspx?id=145347},
+year         = {2011},
+}
+
+@ONLINE {kinectsdk,
+    author = "Microsoft",
+    title  = "Kinect for Windows SDK",
+    month  = "jun",
+    year   = "2016",
+    url    = "https://msdn.microsoft.com/en-us/library/hh855347.aspx"
+}
+
+@ONLINE {kinectsdk2,
+    author = "Microsoft",
+    title  = "Kinect for Windows SDK 2",
+    month  = "jun",
+    year   = "2016",
+    url    = "https://msdn.microsoft.com/en-us/library/dn799271.aspx"
+}
+
+@ONLINE {kinect2specs,
+    author = "Microsoft",
+    title  = "Kinect hardware",
+    month  = "jun",
+    year   = "2016",
+    url    = "https://developer.microsoft.com/en-us/windows/kinect/hardware"
+}
+
+@book{Webb:2012:BKP:2331380,
+ author = {Webb, Jarrett and Ashley, James},
+ title = {Beginning Kinect Programming with the Microsoft Kinect SDK},
+ year = {2012},
+ isbn = {1430241047, 9781430241041},
+ edition = {1st},
+ publisher = {Apress},
+ address = {Berkely, CA, USA},
+} 
+
+
+@INPROCEEDINGS{xia2011human,
+  title="Human detection using depth information by Kinect",
+  AUTHOR="Lu Xia and Chia-Chih Chen and JK Aggarwal",
+  booktitle="Computer Vision and Pattern Recognition Workshops (CVPRW), 2011 IEEE Computer Society Conference on",
+  pages="15--22",
+  year="2011",
+  organization="IEEE"
+}
+ 
+ @inproceedings{pierris2015synaisthisi,
+  title={SYNAISTHISI: an enabling platform for the current internet of things ecosystem},
+  author={Pierris, Georgios and Kothris, Dimosthenis and Spyrou, Evaggelos and Spyropoulos, Costas},
+  booktitle={Proceedings of the 19th Panhellenic Conference on Informatics},
+  pages={438--444},
+  year={2015},
+  organization={ACM}
+ } 
+ 
+
+@article{sheng2003study,
+  title={A study of adaboost in 3D gesture recognition},
+  author={Sheng, Jia},
+  journal={Department of Computer Science, University of Toronto},
+  year={2003}
+}
+
+@inproceedings{koppula2013learning,
+  title={Learning spatio-temporal structure from rgb-d videos for human activity detection and anticipation},
+  author={Koppula, Hema and Saxena, Ashutosh},
+  booktitle={Proceedings of the 30th International Conference on Machine Learning (ICML-13)},
+  pages={792--800},
+  year={2013}
+}
+
+@inproceedings{zanfir2013moving,
+  title={The moving pose: An efficient 3d kinematics descriptor for low-latency action recognition and detection},
+  author={Zanfir, Mihai and Leordeanu, Marius and Sminchisescu, Cristian},
+  booktitle={Computer Vision (ICCV), 2013 IEEE International Conference on},
+  pages={2752--2759},
+  year={2013},
+  organization={IEEE}
+}
+
+@article{yang2013articulated,
+  title={Articulated human detection with flexible mixtures of parts},
+  author={Yang, Yi and Ramanan, Deva},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  volume={35},
+  number={12},
+  pages={2878--2890},
+  year={2013},
+  publisher={IEEE}
+}
+
+@inproceedings{neverova2013multi,
+  title={A multi-scale approach to gesture detection and recognition},
+  author={Neverova, Natalia and Wolf, Christian and Paci, Giacomo and Sommavilla, Giacomo and Taylor, Graham W and Nebout, Florian},
+  booktitle={Computer Vision Workshops (ICCVW), 2013 IEEE International Conference on},
+  pages={484--491},
+  year={2013},
+  organization={IEEE}
+}
+
+@article{shotton2013efficient,
+  title={Efficient human pose estimation from single depth images},
+  author={Shotton, Jamie and Girshick, Ross and Fitzgibbon, Andrew and Sharp, Toby and Cook, Matthew and Finocchio, Mark and Moore, Richard and Kohli, Pushmeet and Criminisi, Antonio and Kipman, Alex and others},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  volume={35},
+  number={12},
+  pages={2821--2840},
+  year={2013},
+  publisher={IEEE}
+}
+
+@inproceedings{neverova2013multiB,
+  title={A multi-scale approach to gesture detection and recognition},
+  author={Neverova, Natalia and Wolf, Christian and Paci, Giacomo and Sommavilla, Giacomo and Taylor, Graham W and Nebout, Florian},
+  booktitle={Computer Vision Workshops (ICCVW), 2013 IEEE International Conference on},
+  pages={484--491},
+  year={2013},
+  organization={IEEE}
+}
+@inproceedings{bhattacharya2012gesture,
+  title={Gesture classification with machine learning using kinect sensor data},
+  author={Bhattacharya, Surya and Czejdo, Bogdan and Perez, Noel},
+  booktitle={Emerging Applications of Information Technology (EAIT), 2012 Third International Conference on},
+  pages={348--351},
+  year={2012},
+  organization={IEEE}
+}
+
+@article{song2012continuous,
+  title={Continuous body and hand gesture recognition for natural human-computer interaction},
+  author={Song, Yale and Demirdjian, David and Davis, Randall},
+  journal={ACM Transactions on Interactive Intelligent Systems (TiiS)},
+  volume={2},
+  number={1},
+  pages={5},
+  year={2012},
+  publisher={ACM}
+}
+
+@incollection{bevilacqua2010continuous,
+  title={Continuous realtime gesture following and recognition},
+  author={Bevilacqua, Fr{\'e}d{\'e}ric and Zamborlin, Bruno and Sypniewski, Anthony and Schnell, Norbert and Gu{\'e}dy, Fabrice and Rasamimanana, Nicolas},
+  booktitle={Gesture in embodied communication and human-computer interaction},
+  pages={73--84},
+  year={2010},
+  publisher={Springer}
+}
+@inproceedings{lai2012gesture,
+  title={A gesture-driven computer interface using Kinect},
+  author={Lai, Kam and Konrad, Janusz and Ishwar, Prakash},
+  booktitle={Image Analysis and Interpretation (SSIAI), 2012 IEEE Southwest Symposium on},
+  pages={185--188},
+  year={2012},
+  organization={IEEE}
+}
+
+@misc{skeletal,
+  title = {{Microsoft Developer Network, Natural User Interface -- Skeletal Tracking }},
+  howpublished = "\url{https://msdn.microsoft.com/en-us/library/hh973073.aspx}",
+  note = "[Online; accessed 14-December-2015]"
+}
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@article{evans2011internet,
+  title={The internet of things: How the next evolution of the internet is changing everything},
+  author={Evans, Dave},
+  journal={CISCO white paper},
+  volume={1},
+  pages={14},
+  year={2011}
+}
+
+@ARTICLE{fuqaha2015internet, 
+author={Al-Fuqaha, A. and Guizani, M. and Mohammadi, M. and Aledhari, M. and Ayyash, M.}, 
+journal={IEEE Communications Surveys \& Tutoriala}, 
+title={Internet of {Things}: A Survey on Enabling Technologies, Protocols and Applications}, 
+year={2015},  
+number={99}, 
+keywords={Business;Computer architecture;Internet;Monitoring;Protocols;Radiofrequency identification;Standards;AMQP;CoAP;DDS;Internet of things;IoT;IoT Gateway;MQTT;XMPP;mDNS}, 
+doi={10.1109/COMST.2015.2444095}, 
+ISSN={1553-877X},
+}
+
+
+@article{atzori2010internet,
+title = "The Internet of Things: A survey ",
+journal = "Computer Networks ",
+volume = "54",
+number = "15",
+pages = "2787 - 2805",
+year = "2010",
+note = "",
+issn = "1389-1286",
+doi = "http://dx.doi.org/10.1016/j.comnet.2010.05.010",
+author = "Luigi Atzori and Antonio Iera and Giacomo Morabito",
+keywords = "Internet of Things",
+keywords = "Pervasive computing",
+keywords = "RFID systems "
+}
+
+@inproceedings{akasiadis2015exploiting,
+  title={Exploiting Future Internet Technologies: The Smart Room Case},
+  author={Akasiadis, C. and Spyrou, E. and Pierris, G. and Sgouropoulos, D. and Siantikos, G. and Mavrommatis, A. and Vrakopoulos, C. and Giannakopoulos, T.},
+  booktitle={``Proc. of International Conference on PErvasive Technologies Related to Assistive Environments (PETRA), 2015''},
+  year={2015}
+}
+
+@article{zhang2012microsoft,
+  title={Microsoft kinect sensor and its effect},
+  author={Zhang, Zhengyou},
+  journal={MultiMedia, IEEE},
+  volume={19},
+  number={2},
+  pages={4--10},
+  year={2012},
+  publisher={IEEE}
+}
+
+@article{Rubine1991,
+title={Specifying gestures by example},
+author={Rubine, D.},
+journal={ACM},
+volume={25},
+number={4},
+year={1991}
+}
+
+@book{vapnik1998statistical,
+  title={Statistical learning theory},
+  author={Vapnik, Vladimir Naumovich and Vapnik, Vlamimir},
+  volume={1},
+  year={1998},
+  publisher={Wiley New York}
+}
+
+@article{cover1967nearest,
+  title={Nearest neighbor pattern classification},
+  author={Cover, Thomas M and Hart, Peter E},
+  journal={Information Theory, IEEE Transactions on},
+  volume={13},
+  number={1},
+  pages={21--27},
+  year={1967},
+  publisher={IEEE}
+}
+
+@article{domingos1997optimality,
+  title={On the optimality of the simple Bayesian classifier under zero-one loss},
+  author={Domingos, Pedro and Pazzani, Michael},
+  journal={Machine learning},
+  volume={29},
+  number={2-3},
+  pages={103--130},
+  year={1997},
+  publisher={Springer}
+}
+
+@book{breiman1984classification,
+  title={Classification and regression trees},
+  author={Breiman, Leo and Friedman, Jerome and Stone, Charles J and Olshen, Richard A},
+  year={1984},
+  publisher={CRC press}
+}
+
+@article{breiman2001random,
+  title={Random forests},
+  author={Breiman, Leo},
+  journal={Machine learning},
+  volume={45},
+  number={1},
+  pages={5--32},
+  year={2001},
+  publisher={Springer}
+}
+
+@article{geurts2006extremely,
+  title={Extremely randomized trees},
+  author={Geurts, Pierre and Ernst, Damien and Wehenkel, Louis},
+  journal={Machine learning},
+  volume={63},
+  number={1},
+  pages={3--42},
+  year={2006},
+  publisher={Springer}
+}
+
+@book{mclachlan2004discriminant,
+  title={Discriminant analysis and statistical pattern recognition},
+  author={McLachlan, Geoffrey},
+  volume={544},
+  year={2004},
+  publisher={John Wiley \& Sons}
+}
+
+@inproceedings{freund1995decision,
+  title={A decision-theoretic generalization of on-line learning and an application to boosting},
+  author={Freund, Yoav and Schapire, Robert E},
+  booktitle={Computational learning theory},
+  pages={23--37},
+  year={1995},
+  organization={Springer}
+}
